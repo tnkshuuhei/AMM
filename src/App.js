@@ -44,7 +44,7 @@ export default function App() {
       <div className="navBar">
         <div className="appName">
           {" "}
-          FOLIOSWAP <GiBodySwapping className="appnameIcon" />
+          Polkadot AMM <GiBodySwapping className="appnameIcon" />
         </div>
         {myContract === null || activeAccount == null ? (
           <div className="connectBtn" onClick={() => connect()}>
